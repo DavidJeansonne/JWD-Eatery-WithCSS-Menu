@@ -1,0 +1,139 @@
+html{
+    background: #000;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #ffa950, #ff5b00);
+    width: 70%;
+    margin: 35px 15% 15px 15%;
+    text-align: center;
+    box-shadow: 0px 3px 1px #ff5b00;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 3px 3px #ff5b00;
+    padding: 15px;
+}
+
+header h3{
+    color: #cecece;
+    text-shadow: 0px 2px 2px #000000;
+    margin: 0px 15% 0px 15%;
+}
+
+nav a{
+    color: #cecece;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 3px 3px #4f4d4a;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+p, h2, h3, th, td{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 3px 3px #4f4d4a;
+    font-weight: bolder;
+}
+
+table{
+    border: 0px;
+    background: black;
+    //width: 70%;
+    margin: auto;
+}
+
+th{
+    padding: 10px;
+}
+
+tr{
+    background-image: linear-gradient(to bottom, #ffa950, #ff5b00);
+    width: 50%;
+    margin: 15px 25% 15px 25%;
+    text-align: center;
+    box-shadow: 0px 3px 1px #ff5b00;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 3px 3px #ff5b00;
+    padding: 15px;
+}
+
+td {
+    background: black;
+    width: 25%;
+}
+
+.food-title {
+    background-image: linear-gradient(to bottom, #ffa950, #becad1);
+    //width: 50%;
+    //margin: 15px 25% 15px 25%;
+    text-align: center;
+    box-shadow: 0px 3px 1px #ff5b00;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 3px 3px #ff5b00;
+    padding: 15px;
+}
+
+.selection {
+    background-image: linear-gradient(to right, #2c0000, #6c0000,#2c0000);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.table-header {
+    padding: 15px;
+    margin: 15px 25% 15px 25%;
+    border-radius: 6px;
+    background: #000000;
+    box-shadow: 0px 2px 2px 1px #ff5b00;
+}
+
+img {
+    padding: 10px 0px 5px 0px;
+}
+
+tr h2 {
+    color: #ff5b00;
+    font-size: 1.2em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #000;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+input{
+    background-image: linear-gradient(to bottom, #ffa950, #becad1);
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 3px 1px #ff5b00;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 3px 3px #ff5b00;
+    padding: 15px;
+}
+
+button {
+    background-image: linear-gradient(to bottom, #ffa950, #ff5b00);
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 3px 1px red;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 3px 3px #ff5b00;
+    padding: 15px;
+}
+
