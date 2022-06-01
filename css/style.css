@@ -99,15 +99,15 @@ td {
 }
 
 .selection {
-    background-image: linear-gradient(to right, #2c0000, #6c0000,#2c0000);
+    /* background-image: linear-gradient(to right, #2c0000, #6c0000,#2c0000); */
     padding: 15px;
     border-radius: 5px;
 }
 
 .table-header {
     padding: 15px;
-    margin: 15px 25% 15px 25%;
-    border-radius: 6px;
+    /* margin: 15px 25% 15px 25%; */
+    border-radius: 6px 6px 0 0;
     background: #000000;
     box-shadow: 0px 2px 2px 1px #ff5b00;
 }
