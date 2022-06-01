@@ -52,7 +52,7 @@ a, p {
     text-shadow: 0px 0px 6px #ff9900;
 }
 
-.table-header p {
+.table-header p, td {
     color: #ffb834;
 }
 
