@@ -88,14 +88,15 @@ td {
 
 .food-title {
     background-image: linear-gradient(to bottom, #ffa950, #becad1);
-    //width: 50%;
-    //margin: 15px 25% 15px 25%;
+    width: 50%;
+    margin: auto;
     text-align: center;
     box-shadow: 0px 3px 1px #ff5b00;
     border-radius: 5px;
     color: black;
     text-shadow: 0px 3px 3px #ff5b00;
     padding: 15px;
+    font-size: 4em;
 }
 
 .selection {
@@ -105,7 +106,7 @@ td {
 }
 
 .table-header {
-    padding: 15px;
+    padding: 25px 10px 5px 10px;
     /* margin: 15px 25% 15px 25%; */
     border-radius: 6px 6px 0 0;
     background: #000000;
