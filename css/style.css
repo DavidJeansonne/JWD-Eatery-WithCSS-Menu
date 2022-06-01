@@ -80,6 +80,7 @@ tr{
 }
 
 td {
+    font-size: 2em;
     background: black;
     width: 25%;
 }
@@ -116,7 +117,7 @@ img {
 
 tr h2 {
     color: #ff5b00;
-    font-size: 1.2em;
+    font-size: 3em;
 }
 
 .grid-container {
