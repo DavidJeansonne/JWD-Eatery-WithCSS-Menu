@@ -181,8 +181,8 @@ button {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-.shake:hover, a:hover,
-.shake:hover, a:focus {
+.shake:hover,
+.shake:focus {
 	-webkit-animation-name: shakey;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
