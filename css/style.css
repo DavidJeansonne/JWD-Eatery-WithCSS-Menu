@@ -29,9 +29,9 @@ nav a {
     padding: 10px;
     color: #cecece;
     text-align: center;
-    color: white;
-    text-shadow: 0px 3px 3px #4f4d4a;
-    font-size: 22px;
+    color: #ffb834;
+    text-shadow: 0px 0px 5px #000000;
+    font-size: 30px;
     text-decoration: unset;
     text-transform: capitalize;
 }
@@ -44,12 +44,12 @@ h2, h3, th{
     text-shadow: 0px 3px 3px #4f4d4a;
 }
 
-a, p, td{
+a, p, td {
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    color: white;
-    font-size: 30px;
-    text-shadow: 0px 3px 3px #4f4d4a;
+    color: black;
+    font-size: 35px;
+    text-shadow: 0px 0px 6px #ff9900;
 }
 
 table{
