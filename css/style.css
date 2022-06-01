@@ -44,12 +44,16 @@ h2, h3, th{
     text-shadow: 0px 3px 3px #4f4d4a;
 }
 
-a, p, td {
+a, p {
     font-family: 'Amatic SC', cursive;
     text-align: center;
     color: black;
     font-size: 35px;
     text-shadow: 0px 0px 6px #ff9900;
+}
+
+.table-header p {
+    color: #ffb834;
 }
 
 table{
