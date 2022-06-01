@@ -7,7 +7,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #6c5a43, #cca97e);
+    background-image: linear-gradient(to bottom, #000000, #ff730a);
     width: 70%;
     margin: 35px 15% 15px 15%;
     text-align: center;
@@ -33,10 +33,19 @@ nav a{
     font-size: 22px;
 }
 
-a, p, h2, h3, th, td{
-    font-family: 'Courgette', cursive;
+h2, h3, th{
+    font-family: 'Amatic SC', cursive;
     text-align: center;
     color: white;
+    font-size: 25px;
+    text-shadow: 0px 3px 3px #4f4d4a;
+}
+
+a, p, td{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: white;
+    font-size: 20px;
     text-shadow: 0px 3px 3px #4f4d4a;
 }
 
