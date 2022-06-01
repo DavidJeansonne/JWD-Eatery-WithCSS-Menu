@@ -53,6 +53,7 @@ a, p {
 }
 
 .table-header p, td {
+    font-family: 'Amatic SC', cursive;
     color: #ffb834;
 }
 
