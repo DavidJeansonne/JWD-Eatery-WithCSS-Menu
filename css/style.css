@@ -38,7 +38,9 @@ nav a {
 }
 
 h2, h3, th{
-    font-family: 'Poiret One', cursive;
+    font-family: tacitus-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -46,7 +48,9 @@ h2, h3, th{
 }
 
 a, p {
-    font-family: 'Poiret One', cursive;
+    font-family: tacitus-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
     color: black;
     font-size: 35px;
@@ -54,7 +58,9 @@ a, p {
 }
 
 .table-header p, td {
-    font-family: 'Poiret One', cursive;
+    font-family: tacitus-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #ffb834;
 }
 
@@ -143,7 +149,10 @@ tr h2 {
 }
 
 input {
-    font-family: 'Amatic SC', cursive;
+    
+    font-family: tacitus-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     background-image: linear-gradient(to bottom, #ffd2a4, #d66c14);
     width: 25%;
     /* text-align: center; */
