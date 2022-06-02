@@ -38,7 +38,7 @@ nav a {
 }
 
 h2, h3, th{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -46,7 +46,7 @@ h2, h3, th{
 }
 
 a, p {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     color: black;
     font-size: 35px;
@@ -54,7 +54,7 @@ a, p {
 }
 
 .table-header p, td {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poiret One', cursive;
     color: #ffb834;
 }
 
