@@ -235,26 +235,26 @@ button {
 }
 
 .button {
-  border: 1px solid green;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  transform: skewX(-10deg);
-  height: 50px;
-  width: 200px;
-  border-radius: 20px 5px 20px 0px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  font: 15px sans-serif;
-  font-weight: 300;
-  text-shadow: 0 0 20px #fff;
-  text-transform: uppercase;
-  -webkit-animation: breath2 2s 0.5s infinite alternate;
-          animation: breath2 2s 0.5s infinite alternate;
-  transition: all 0.2s ease;
-  cursor: pointer;
+    border: 1px solid #ffa800;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transform: skewX(-10deg);
+    /* height: 50px; */
+    /* width: 200px; */
+    border-radius: 20px 5px 20px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font: 15px sans-serif;
+    font-weight: 300;
+    text-shadow: 0 0 20px #fff;
+    text-transform: uppercase;
+    -webkit-animation: breath2 5s 0.5s infinite alternate;
+    animation: breath2 5s 0.5s infinite alternate;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 .button:before {
   content: "";
@@ -279,26 +279,11 @@ button {
 .button.fire:before {
   box-shadow: inset 0 0 30px 0 #ffeca8;
 }
-.button.ice {
-  border-color: #a8ecff;
-  background-image: linear-gradient(to bottom, rgba(48, 138, 255, 0.5), rgba(29, 96, 240, 0.5));
-  box-shadow: 0 0 70px rgba(48, 138, 255, 0.5), 0 5px 20px rgba(48, 138, 255, 0.5), inset 0 1px #ffeca8, inset 0 -1px #ffeca8;
-  color: #a8ecff;
-}
-.button.ice:before {
-  box-shadow: inset 0 0 30px 0 #a8ecff;
-}
 .button:hover.fire {
   box-shadow: 0 0 70px rgba(255, 138, 48, 0.8), 0 5px 20px rgba(255, 138, 48, 0.8), inset 0 1px #ffeca8, inset 0 -1px #ffeca8;
 }
 .button:hover.fire:before {
   box-shadow: inset 0 0 50px 0 #ffeca8;
-}
-.button:hover.ice {
-  box-shadow: 0 0 70px rgba(48, 138, 255, 0.8), 0 5px 20px rgba(48, 138, 255, 0.8), inset 0 1px #a8ecff, inset 0 -1px #a8ecff;
-}
-.button:hover.ice:before {
-  box-shadow: inset 0 0 50px 0 #a8ecff;
 }
 .button + .button {
   margin-top: 15px;
