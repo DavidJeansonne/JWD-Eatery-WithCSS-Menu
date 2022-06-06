@@ -257,7 +257,6 @@ button {
     cursor: pointer;
 }
 .button:before {
-  content: "";
   display: block;
   width: calc(100% - 22px);
   height: calc(50px - 8px);
