@@ -269,7 +269,6 @@ button {
 	--animation-duration: var(--duration, 800ms);
 	--animation-iterations: var(--iterations, 1);
 	position: relative;
-	font-size: 10vw;
 	animation-name: clip-text;
 	color: #FFF;
 	white-space: nowrap;
