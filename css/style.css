@@ -165,7 +165,7 @@ input {
 }
 
 button {
-    font-family: 'Amatic SC', cursive;
+    font-family: tacitus-pro,sans-serif;
     background-image: linear-gradient(to bottom, #050200, #fc710a);
     width: 50%;
     font-size: 1.8em;
